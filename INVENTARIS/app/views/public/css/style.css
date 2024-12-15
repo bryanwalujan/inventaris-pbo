@@ -1,0 +1,110 @@
+:root {
+    --pr-color : rgba(16, 16, 16, 1);
+    --ft-white : rgba(255, 255, 255, 1); 
+    --transparent : rgba(255, 255, 255, 0);
+}
+
+.hero {
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+
+    height: 100vh; 
+
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 160%;
+}
+
+.body-bg {
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+}
+
+.inputformprimary {    
+    width: 437px;
+    height: 41px;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color : white;
+}
+
+.navbar-custom{
+    background-color: rgba(16, 16, 16, 0.59);
+    color: white;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+.transparent{
+    background-color: rgba(16, 16, 16, 0.59);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-test {
+    width: fit-content;
+    height: 102px;
+    color: rgba(16, 16, 16, 0.59);
+}
+
+.nav-link .active {
+    font-weight: 600;
+    color: white;
+}
+
+.button-primary {
+    width: 103px;
+    height: 45px;
+    background-color: var(--transparent);
+    color: var(--ft-white);
+    border:none;
+    font-size: 20px;
+}
+
+
+
+.button-secondary {
+    width: 103px;
+    height: 45px;
+    background-color: var(--pr-color);
+    color: var(--ft-white);
+    border:none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.button-lg-primary {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 12px;
+    width: 487px;
+    height: 102px;
+    font-size: 32px;
+    border-radius: 12px;
+}
+
+.button-bevel-12 {
+    border-radius: 12px;
+}
+.btn-bevel-8 {
+    border-radius: 8px;
+}
+
+.btn-bevel-4 {
+    border-radius: 4px;
+}
